@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NUnitProject>
+  <Settings>
+    <Setting name="NumberOfTestWorkers">2</Setting>
+  </Settings>
+</NUnitProject>

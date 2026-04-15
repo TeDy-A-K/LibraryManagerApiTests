@@ -1,0 +1,6 @@
+{
+  "$schema": "https://raw.githubusercontent.com/allure-framework/allure-csharp/master/Allure.Net.Commons/Schemas/allureConfig.schema.json",
+  "allure": {
+    "resultsDirectory": "allure-results"
+  }
+}
