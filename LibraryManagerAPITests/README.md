@@ -6,8 +6,8 @@ API test automation framework for the Library Manager service.
 - .NET 10 | NUnit | RestSharp | Allure
 
 ## Documentation
-- [BDD Test Scenarios](Docs/ManualBDDScenarios.md)
-- [Found Bugs](Docs/Bugs/)
+- [BDD Test Scenarios](LibraryManagerAPITests/Docs/ManualBDDScenarios.md)
+- [Found Bugs](LibraryManagerAPITests/Docs/Bugs)
 
 ## Quick Start
 ```bash
