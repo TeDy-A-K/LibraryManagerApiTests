@@ -3,27 +3,24 @@
 API test automation framework for the Library Manager service.
 
 ## Stack
-- .NET 10
-- NUnit
-- RestSharp
-- Allure
+- .NET 10 | NUnit | RestSharp | Allure
 
-## Project
-- `LibraryManagerAPITests/LibraryManagerAPITests.csproj`
-- `LibraryManagerAPITests/Docs/ManualBDDScenarios.md`
+## Documentation
+- [BDD Test Scenarios](Docs/ManualBDDScenarios.md)
+- [Found Bugs](Docs/Bugs/)
 
-## Run tests
+## Quick Start
 ```bash
 dotnet test LibraryManagerAPITests/LibraryManagerAPITests.csproj
 ```
 
-## Run by category
+## Run by Category
 ```bash
 dotnet test LibraryManagerAPITests/LibraryManagerAPITests.csproj --filter "Category=Positive"
 dotnet test LibraryManagerAPITests/LibraryManagerAPITests.csproj --filter "Category=Negative"
 ```
 
-## Allure
+## Allure Reports
 ```bash
 dotnet test LibraryManagerAPITests/LibraryManagerAPITests.csproj
 allure serve LibraryManagerAPITests/bin/Debug/net10.0/allure-results
